@@ -699,26 +699,26 @@ body {
 @media (max-width: 480px) {
   .cyberpunk-frame {
     height: 400px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .content h2 {
-    font-size: 16px;
-    margin-top: 115px;
+    font-size: 12px;
+    margin-top: 130px;
   }
   .content ul li {
     font-size: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     margin-left: 3px;
   }
 }
 
 @media (max-width: 375px) {
   .content h2 {
-    margin-top: 130px;
+    margin-top: 140px;
     width: 90%;
-    margin-bottom: 5px;
-    font-size: 14px;
+    margin-bottom: 3px;
+    font-size: 12px;
   }
   .content ul li {
     font-size: 10px;
