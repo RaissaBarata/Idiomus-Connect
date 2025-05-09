@@ -18,6 +18,39 @@
     />
   </head>
   <body>
+    <!-- Início do Menu Responsivo -->
+    <div class="nav-container">
+      <nav class="navbar">
+        <div class="logo">
+          <div class="logo-text">IDIOMUS</div>
+        </div>
+        <div class="nav-links">
+          <a href="#">Início</a>
+          <a href="#">Sobre</a>
+          <a href="#">Comunidade</a>
+          <a href="#">Planos</a>
+          <a href="#">Contato</a>
+        </div>
+        <a href="#" class="nav-button">Entrar</a>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+
+    <div class="mobile-menu">
+      <div class="close-button">X</div>
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Comunidade</a>
+      <a href="#">Planos</a>
+      <a href="#">Contato</a>
+      <a href="#" class="nav-button">Entrar</a>
+    </div>
+    <div class="overlay"></div>
+
     <div class="hero">
       <div class="glass-effect">
         <div class="hero-text">
@@ -63,9 +96,8 @@
           </div>
         </div>
       </div>
-      <!-- Nova moldura com estilo cyberpunk -->
+
       <div class="cyberpunk-frame">
-        <!-- SVG como borda -->
         <svg
           class="svg-border"
           width="100%"
@@ -181,7 +213,7 @@
             fill="#2CFFEC"
           />
         </svg>
-        <!-- Conteúdo -->
+
         <div class="crt-container">
           <div class="content">
             <h2>
@@ -204,5 +236,7 @@
     <footer class="footer">
       <p>Feito por Raíssa Barata &copy; 2025</p>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
